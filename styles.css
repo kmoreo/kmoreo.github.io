@@ -1,3 +1,61 @@
 body {
 	background: thistle;
+	margin: 15px;
+	background-image: url("background.jpg");
+	max-width: 885px;
+}
+
+img {
+	padding: 10px;
+}
+
+
+div {
+	display: inline-block;
+	padding: 5px;
+	vertical-align: top;
+}
+
+ul {
+	width: 6cm;
+}
+
+section {
+	font-family: Georgia;
+	font-style: italic;
+	font-size: smaller;
+}
+
+footer {
+	margin: auto;
+	border: 3px solid purple;
+	width: 50%;
+}
+
+.image {
+	border: 5px double;
+}
+
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    background-color: green;
+}
+
+#thank-you {
+	display: inline-block;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: smaller;
+  }
+
+  img {
+    width: 25%;
+    height: auto;
+	}
 }
